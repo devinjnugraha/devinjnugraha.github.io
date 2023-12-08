@@ -45,8 +45,9 @@
   margin-right: 2rem;
   width: 6rem;
   height: 6rem;
-  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
-  border-radius: 50%;
+  // Turn off box-shadow so the image doesn't need to be rounded and non-transparent PNG
+  // box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
+  // border-radius: 50%;
 }
 
 .education-card-right {
