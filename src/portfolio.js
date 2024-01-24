@@ -96,7 +96,10 @@ const educationInfo = {
       // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "GPA 3.87",
-        "Thesis: Optimizing Convolutional Neural Network Using Weighted Loss for Glaucoma Detection"
+        "Graduated in 3.5 years with Cum Laude predicate",
+        "Thesis: Optimizing Convolutional Neural Network Using Weighted Loss for Glaucoma Detection (2023)",
+        "Deputy Head of Information Technology Department at Eksekutif Mahasiswa Informatika (2022-2023)",
+        "7th Place of Data Competition in Predicting House Prices in Jabodetabek (ISFEST UMN 2023)"
       ]
     },
     {
@@ -105,7 +108,7 @@ const educationInfo = {
       subHeader: "High School - Mathematics and Natural Science",
       duration: "Aug 2017 - Jun 2020",
       // desc: "Senior High School",
-      descBullets: ["GPA 3.37", "Basketball Team Captain"]
+      descBullets: ["GPA 3.37", "Basketball Team Captain (2018-2019)"]
     }
   ]
 };
