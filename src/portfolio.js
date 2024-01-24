@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Certified TensorFlow Developer 🚀 experienced in building machine learning and deep learning applications with PyTorch and TensorFlow"
   ),
-  resumeLink: "https://bit.ly/ResumeDevin", // Set to empty to hide the button
+  resumeLink: "https://bit.ly/ResumeDevinJan2024", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -92,20 +92,20 @@ const educationInfo = {
       schoolName: "Brawijaya University",
       logo: require("./assets/images/brawijayaLogo.png"),
       subHeader: "Bachelor of Computer Science in Informatics Engineering",
-      duration: "August 2020 - December 2023"
+      duration: "Aug 2020 - Jan 2024",
       // desc: "Participated in the research of XXX and published 3 papers.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      descBullets: [
+        "GPA 3.87",
+        "Thesis: Optimizing Convolutional Neural Network Using Weighted Loss for Glaucoma Detection"
+      ]
     },
     {
       schoolName: "SMAN 63 Jakarta",
       logo: require("./assets/images/logoSMA.png"),
       subHeader: "High School - Mathematics and Natural Science",
-      duration: "August 2017 - August 2020"
+      duration: "Aug 2017 - Jun 2020",
       // desc: "Senior High School",
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: ["GPA 3.37", "Basketball Team Captain"]
     }
   ]
 };
@@ -168,7 +168,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -218,7 +218,7 @@ const achievementSection = {
     {
       title: "Google Certified TensorFlow Developer",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Certified developer skilled in using TensorFlow to build advanced machine learning models for tasks such as image recognition, object detection, text recognition, and natural language processing",
       image: require("./assets/images/logoTensorFlowCertified.png"),
       imageAlt: "TensorFlow Developer Certificate Logo",
       footerLink: [
@@ -231,7 +231,7 @@ const achievementSection = {
     {
       title: "Mathematics for Machine Learning Specialization",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Skilled in translating data into a mathematical framework using linear algebra, summarizing dataset characteristics, employing principal component analysis for simplifying complex data, solving optimization problems, and applying these abilities to train models, including neural networks, for comprehensive data understanding.",
       image: require("./assets/images/logoImperialCollegeLondon.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -245,7 +245,7 @@ const achievementSection = {
     {
       title: "Machine Learning Specialization",
       subtitle:
-        "Completed machine learning specialization certifcation from Deeplearning.AI",
+        "Completed the Machine Learning Specialization with a focus on modern concepts like supervised and unsupervised learning, recommender systems, and reinforcement learning, equipped with practical skills to effectively apply machine learning techniques to real-world challenges",
       image: require("./assets/images/logoDeeplearningAI.png"),
       imageAlt: "Deeplearning.AI Logo",
       footerLink: [
