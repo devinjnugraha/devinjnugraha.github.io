@@ -20,10 +20,11 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Devin Jaya Nugraha",
+  username: "Devin J. Nugraha",
   title: "Hi! I'm Devin",
   subTitle: emoji(
-    "Certified TensorFlow Developer 🚀 experienced in building machine learning and deep learning applications with PyTorch and TensorFlow"
+    "Software Developer | Certified TensorFlow Developer 🚀\
+    experienced in developing web (Java, React) and machine learning applications (PyTorch, TensorFlow)"
   ),
   resumeLink: "https://bit.ly/ResumeDevinJan2024", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -51,6 +52,7 @@ const skillsSection = {
   subTitle:
     "CRAZY MACHINE LEARNING DEVELOPER WHO WANTS TO EXPLORE A LOT OF DATA",
   skills: [
+    emoji("⚡ Develop full-stack web applications using Spring Boot and React"),
     emoji(
       "⚡ Develop and deploy machine learning models to analyze data and improve decision-making processes"
     ),
@@ -63,6 +65,10 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -96,7 +102,7 @@ const educationInfo = {
       // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "GPA 3.87",
-        "Graduated in 3.5 years with Cum Laude predicate",
+        "Graduated Very Satisfactory in 3.5 years",
         "Thesis: Optimizing Convolutional Neural Network Using Weighted Loss for Glaucoma Detection (2023)",
         "Deputy Head of Information Technology Department at Eksekutif Mahasiswa Informatika (2022-2023)",
         "7th Place of Data Competition in Predicting House Prices in Jabodetabek (ISFEST UMN 2023)"
@@ -117,17 +123,18 @@ const educationInfo = {
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
+  displayProgressPercentage: false, // Set it to true to display progress style below the stack text
   experience: [
     {
-      Stack: "Python", //Insert stack or technology you have experience in
+      Stack: "Web Development (Java Spring Boot, React, NextJS)", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Machine Learning / Deep Learning",
+      Stack: "Machine Learning / Deep Learning (Python)",
       progressPercentage: "70%"
     },
     {
-      Stack: "Data Analytics",
+      Stack: "Data Analytics (Python, Tableau, SQL)",
       progressPercentage: "60%"
     }
   ],
@@ -139,6 +146,13 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Software Developer",
+      company: "PT CGS International Sekuritas Indonesia",
+      companylogo: require("./assets/images/logoCGSI.png"),
+      date: "Feb 2024 – Present",
+      desc: ""
+    },
     {
       role: "Computer Lab Assistant for Database System",
       company: "FILKOM UB",
@@ -171,7 +185,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 

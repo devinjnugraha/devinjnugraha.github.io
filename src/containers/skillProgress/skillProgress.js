@@ -13,15 +13,17 @@ export default function StackProgress() {
           <div className="skills-bar">
             <h1 className="skills-heading">Major Proficiency</h1>
             {techStack.experience.map((exp, i) => {
-              // const progressStyle = {
-              //   width: exp.progressPercentage
-              // };
+              const progressStyle = {
+                width: exp.progressPercentage
+              };
               return (
                 <div key={i} className="skill">
                   <p>{exp.Stack}</p>
-                  {/* <div className="meter">
-                    <span style={progressStyle}></span>
-                  </div> */}
+                  {techStack.displayProgressStyle && (
+                    <div className="meter">
+                      <span style={progressStyle}></span>
+                    </div>
+                  )}
                 </div>
               );
             })}
