@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.75016fb6.css",
-    "main.js": "/static/js/main.cd64e5e8.js",
+    "main.css": "/static/css/main.0acaf104.css",
+    "main.js": "/static/js/main.a6cf44d2.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -9,7 +9,7 @@
     "static/media/brawijayaLogo.png": "/static/media/brawijayaLogo.bfb3534dd4ae6b8588b7.png",
     "static/media/logoSMA.png": "/static/media/logoSMA.2317bf830223e606e60d.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pdf": "/static/media/resume.6c5e04394d37ec94b335.pdf",
+    "static/media/Resume Devin Jaya Nugraha.pdf": "/static/media/Resume Devin Jaya Nugraha.c11098cc32e8ef1cd7fb.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/logoImperialCollegeLondon.png": "/static/media/logoImperialCollegeLondon.01e63514605f32762792.png",
     "static/media/logoCGSI.png": "/static/media/logoCGSI.de5b3e1a837b4d2ea458.png",
@@ -21,21 +21,21 @@
     "static/media/logoDeeplearningAI.png": "/static/media/logoDeeplearningAI.d5ce0ce4587f8d88ace3.png",
     "static/media/logoTensorFlowCertified.png": "/static/media/logoTensorFlowCertified.c42092cdb501d0753cd8.png",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/index.html",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.75016fb6.css.map": "/static/css/main.75016fb6.css.map",
-    "main.cd64e5e8.js.map": "/static/js/main.cd64e5e8.js.map",
+    "main.0acaf104.css.map": "/static/css/main.0acaf104.css.map",
+    "main.a6cf44d2.js.map": "/static/js/main.a6cf44d2.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
     "769.1c0049b7.chunk.js.map": "/static/js/769.1c0049b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75016fb6.css",
-    "static/js/main.cd64e5e8.js"
+    "static/css/main.0acaf104.css",
+    "static/js/main.a6cf44d2.js"
   ]
 }
