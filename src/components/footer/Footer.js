@@ -11,7 +11,11 @@ export default function Footer() {
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           © 2023 Devin J. Nugraha | Theme by{" "}
-          <a href="https://github.com/saadpasta/developerFolio">
+          <a
+            href="https://github.com/saadpasta/developerFolio"
+            target="_blank"
+            rel="noreferrer"
+          >
             developerFolio
           </a>
         </p>
