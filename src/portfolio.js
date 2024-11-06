@@ -26,7 +26,7 @@ const greeting = {
     "Software Developer | Certified TensorFlow Developer 🚀\
     experienced in developing web (Java, React) and machine learning applications (PyTorch, TensorFlow)"
   ),
-  resumeLink: "https://bit.ly/ResumeDevinJan2024", // Set to empty to hide the button
+  // resumeLink: "https://bit.ly/ResumeDevinJan2024", // Commented to serve server's pdf (/src/assets/pdf/).
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

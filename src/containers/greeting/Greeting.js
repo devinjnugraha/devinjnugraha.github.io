@@ -8,6 +8,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import resumePdf from "../../assets/pdf/Resume Devin Jaya Nugraha.pdf";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -40,15 +41,12 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
-                {greeting.resumeLink && (
-                  <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
-                    className="download-link-button"
-                  >
-                    <Button text="Download my resume" />
-                  </a>
-                )}
+
+                <Button
+                  text="See my resume"
+                  href={greeting.resumeLink ?? resumePdf}
+                  newTab={true}
+                />
               </div>
             </div>
           </div>
