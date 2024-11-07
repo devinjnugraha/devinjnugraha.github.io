@@ -1,0 +1,40 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "Devin Jaya Nugraha",
+  "url": "https://devinjnugraha.github.io",
+  "description": "Software Developer skilled in web development (React, Spring Boot), data analytics (Google Data Analytics), automation (Google IT Automation with Python), and machine learning (Certified TensorFlow Developer).",
+  "author": {
+    "@type": "Person",
+    "name": "Devin Jaya Nugraha",
+    "jobTitle": "Software Developer",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Universitas Brawijaya"
+    },
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "TensorFlow Developer Certificate"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Google Data Analytics Professional Certificate"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Google IT Automation with Python Professional Certificate"
+      }
+    ],
+    "knowsAbout": [
+      "Web Development",
+      "Machine Learning",
+      "Data Analytics",
+      "Automation"
+    ],
+    "sameAs": [
+      "https://linkedin.com/in/devinjnugraha",
+      "https://github.com/devinjnugraha"
+    ]
+  }
+}
